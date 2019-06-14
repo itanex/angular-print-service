@@ -12,7 +12,7 @@ export class AppComponent {
   constructor(public printService: PrintService) { }
 
   onPrintInvoice() {
-    const invoiceIds = ['101', '102'];
+    const invoiceIds = ['101', '102', '103', '104'];
     this.printService
       .printDocument('invoice', invoiceIds);
   }

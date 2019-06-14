@@ -1,7 +1,32 @@
 .header, .header-space,
-.footer, .footer-space { height: 100px; }
-.header { position: fixed; top: 0; }
-.footer { position: fixed; bottom: 0; }
+.footer, .footer-space {
+  height: 100px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 1px solid blue;
+}
+.header-space {
+  border: 1px dashed red;
+}
+.footer-space {
+  border: 1px dashed blue;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border: 1px solid red;
+}
+.content {
+  width: 100%;
+  border: 1px solid silver;
+}
+table {
+  width: 100%;
+}
 
 @media screen {
   :host {

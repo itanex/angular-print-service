@@ -1,4 +1,6 @@
 .invoice {
+  border: 1px solid green;
+  margin: 1rem 0;
   page-break-after: always;
 }
 
